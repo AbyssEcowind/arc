@@ -1,0 +1,33 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+When generating CSS styles, always follow these responsive design principles using Tailwind CSS:
+
+Responsive Design Guidelines:
+- Use mobile-first approach (Tailwind's default approach)
+- Implement fluid typography and layouts
+- Utilize Tailwind's responsive utility classes
+- Ensure readability and usability across devices
+
+Tailwind CSS Breakpoint Defaults:
+- Mobile (default): up to 640px
+- Tablet: 640px to 1024px
+- Desktop: 1024px and above
+- Large Screens: 1280px and above
+
+Tailwind Responsive Prefix Syntax:
+```jsx
+<div className="
+  w-full           // Base (mobile) width
+  md:w-1/2         // Tablet width (640px+)
+  lg:w-1/3         // Desktop width (1024px+)
+  xl:w-1/4         // Large screen width (1280px+)
+">
+  {/* Responsive content */}
+</div>
+- You can @ files here
+- You can use markdown but dont have to
